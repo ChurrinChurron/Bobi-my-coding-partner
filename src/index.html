@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body class="bg-fuchsia-600">
+    <main class="my-8 md:mt-14 md:mb-20">
+        <h1 class="text-white text-2xl font-bold ml-8 xl:ml-28">Bobi, My Coding Partner</h1>
+        <div class="my-16 md:mt-2">
+            <img src="../assets/bobi.png" class="bg-lime-400 border-4 border-black rounded-full mx-auto w-40 py-3 px-7" alt="bobi">
+        </div>
+        <section class="w-4/5 max-w-max mx-auto md:max-w-none md:w-3/6">
+            <div class="flex mb-8 relative right-8">
+                <div>
+                    <img src="../assets/bobi.png" class="mr-3 bg-lime-400 border-2 border-black rounded-full mx-auto w-12 max-w-xs py-1 px-2" alt="bobi">
+                </div>
+                <p class="bg-gray-200 rounded p-3">Hello, world! What are we coding today?</p>
+            </div>
+            <div class="flex flex-row-reverse mb-8 relative left-8 md:w-96 md:ml-auto">
+                <div>
+                    <img src="../assets/yo.jpg" class="ml-3 bg-white border-2 border-black rounded-full mx-auto w-12 max-w-xs py-1.5 px-1.5" alt="yo">
+                </div>
+                <p class="bg-gray-200 rounded p-3">Hi, Bobi, how can I center align vertically
+                    all elements inside a div container?</p>
+            </div>
+            <div class="flex mb-8 relative right-8 md:w-96">
+                <div>
+                    <img src="../assets/bobi.png" class="mr-3 bg-lime-400 border-2 border-black rounded-full mx-auto w-12 max-w-xs py-1 px-2" alt="bobi">
+                </div>
+                <p class="bg-gray-200 rounded p-3">You can use align-items: center in 
+                    CSS so the div container aligns 
+                    vertically all its children elements like this:
+                    <br/><br/>
+                    <span class="text-red-500">.container</span> { <br/>
+                    &nbsp; display: <span class="text-blue-900">flex</span>; <br/>
+                    &nbsp; align-items: <span class="text-blue-900">center</span>; <br/>}
+                </p>
+            </div>
+            <form action="" method="post" class="mt-20 flex flex-col md:flex-row items-start">
+                <textarea name="question" id="question" cols="45" rows="5" class="pt-5 px-4 pb-4 text-sm outline-none w-full md:w-3/5"></textarea>
+                <input type="submit" value="Send" class="cursor-pointer mt-4 border-2 border-black bg-teal-800 text-white font-bold text-2xl py-2 rounded w-full transition
+                 md:ml-4 md:w-2/5 md:mt-1.5 hover:bg-teal-700">
+            </form>
+        </section>
+    </main>
+</body>
+</html>
